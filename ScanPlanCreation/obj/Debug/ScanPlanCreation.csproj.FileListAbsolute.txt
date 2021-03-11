@@ -1,0 +1,15 @@
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.csprojAssemblyReference.cache
+C:\SightSonics\ScanPlanCreation\obj\Debug\App.g.cs
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation_MarkupCompile.cache
+C:\SightSonics\ScanPlanCreation\bin\Debug\ScanPlanCreation.exe.config
+C:\SightSonics\ScanPlanCreation\bin\Debug\ScanPlanCreation.exe
+C:\SightSonics\ScanPlanCreation\bin\Debug\ScanPlanCreation.pdb
+C:\SightSonics\ScanPlanCreation\obj\Debug\MainWindow.g.cs
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation_MarkupCompile.lref
+C:\SightSonics\ScanPlanCreation\obj\Debug\MainWindow.baml
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.g.resources
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.Properties.Resources.resources
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.csproj.GenerateResource.cache
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.csproj.CoreCompileInputs.cache
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.exe
+C:\SightSonics\ScanPlanCreation\obj\Debug\ScanPlanCreation.pdb

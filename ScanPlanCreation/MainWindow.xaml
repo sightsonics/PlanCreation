@@ -1,0 +1,46 @@
+﻿<Window x:Class="ScanPlanCreation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScanPlanCreation"
+        mc:Ignorable="d"
+        Title="ScanPlanCreation" Height="450" Width="800">
+
+    <Grid x:Name="ScanPlanCreation">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="683*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Model"  HorizontalAlignment="Left" Height="23" Margin="24,36,0,0" TextWrapping="Wrap" Text="Model" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3" TextChanged="Model_TextChanged"/>
+        <TextBox x:Name="Location" HorizontalAlignment="Left" Height="23" Margin="24,64,0,0" TextWrapping="Wrap" Text="Location" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="Plan" HorizontalAlignment="Left" Height="23" Margin="24,92,0,0" TextWrapping="Wrap" Text="Plan" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="NumberOfWelds" HorizontalAlignment="Left" Height="23" Margin="24,120,0,0" TextWrapping="Wrap" Text="Number of Welds" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="SetUpPath" HorizontalAlignment="Left" Height="23" Margin="24,148,0,0" TextWrapping="Wrap" Text="Set Up Path" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <Button Content="Browse" Grid.Column="2" HorizontalAlignment="Left" Margin="50,148,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Quality Line Set-UP" HorizontalAlignment="Center" Margin="24,176,636,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="136" FontFamily="Segoe UI Black" FontStretch="Expanded"/>
+        <TextBox x:Name="QualityDiameter" HorizontalAlignment="Left" Height="23" Margin="24,207,0,0" TextWrapping="Wrap" Text="Quality Diameter" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="QualityArea" HorizontalAlignment="Left" Height="23" Margin="24,235,0,0" TextWrapping="Wrap" Text="Quality Area" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="QualityThickness" HorizontalAlignment="Left" Height="23" Margin="24,263,0,0" TextWrapping="Wrap" Text="Quality Thickness" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="ContactDimensions" HorizontalAlignment="Left" Height="23" Margin="24,291,0,0" TextWrapping="Wrap" Text="Contact Dimensions" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="RegionOfInterest" HorizontalAlignment="Left" Height="23" Margin="24,319,0,0" TextWrapping="Wrap" Text="Region Of Interest" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="GateThreshold" HorizontalAlignment="Left" Height="23" Margin="24,347,0,0" TextWrapping="Wrap" Text="Gate Threshold" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="AlignmentFactor" HorizontalAlignment="Left" Height="23" Margin="24,375,0,0" TextWrapping="Wrap" Text="Alignment Factor" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,263,0,0" TextWrapping="Wrap" Text="Number of Sheets" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,291,0,0" TextWrapping="Wrap" Text="Sheet 1" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,319,0,0" TextWrapping="Wrap" Text="Sheet 2" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,347,0,0" TextWrapping="Wrap" Text="Sheet 3" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,375,0,0" TextWrapping="Wrap" Text="Sheet 4" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,235,0,0" TextWrapping="Wrap" Text="Weld ID" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="70,207,0,0" TextWrapping="Wrap" Text="Weld Number" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Moving Data Set-Up" HorizontalAlignment="Center" Margin="70,173,477,0" VerticalAlignment="Top" Width="136" FontFamily="Segoe UI Black" FontStretch="Expanded" Grid.Column="2"/>
+
+
+
+
+
+
+
+    </Grid>
+</Window>
